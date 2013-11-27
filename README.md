@@ -1,4 +1,4 @@
 sivapvarma.github.io
 ====================
 
-website
+My website and blog using Pelican static site generator
