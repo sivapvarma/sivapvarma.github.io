@@ -6,12 +6,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>    My Pelican Setup
+        <title>    My Pelican Setup
 </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://spv.me/theme/css/cid.css">
-        <link href="http://spv.me/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="SPV.ME Atom Feed" />
+        <link href="http://spv.me/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="SPV Atom Feed" />
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -21,10 +21,12 @@
             <div class="container">
 
 <header class="blog-header">
-    <h1><a href="http://spv.me">SPV.ME</a></h1>
+    <h1><a href="http://spv.me"><span id="sitename">SPV</span></a></h1>
     <p></p>
     <nav>
-        <a href="http://spv.me/blog/">INDEX</a>
+                <a href="http://spv.me/">HOME</a>
+                <a href="http://spv.me/blog">BLOG</a>
+        <!-- <a href="http://spv.me/blog/">INDEX</a> -->
         <a href="http://spv.me/archives">ARCHIVES</a>
         <a href="http://spv.me/categories">CATEGORIES</a>
     </nav>
@@ -33,17 +35,84 @@
     <div class="post">
 
         <header>
-            <h1>My Pelican Setup</h1>
-            <p class="date"><time datetime="2015-08-17T00:00:00+05:30">Aug 17, 2015</time> &bull; <a href="http://spv.me/category/misc.html">misc</a> </p>
+            <h1>My Pelican&nbsp;Setup</h1>
+            <!--
+            <p class="date"><time datetime="2015-08-17T00:00:00+05:30">Aug 17, 2015</time> &bull; <a href="http://spv.me/category/web.html">Web</a> </p>
+            -->
+            <p class="date">Posted on <time datetime="2015-08-17T00:00:00+05:30">Aug 17, 2015</time> in <a href="http://spv.me/category/web.html">Web</a> </p>
         </header>
 
         <article>
-            <p>My Pelican setup. pelicanconf.py and publishconf.py</p>
+            <p>My Pelican setup. pelicanconf.py and&nbsp;publishconf.py</p>
+<p>For typesetting mathematics, I am using a <a href="https://github.com/getpelican/pelican-plugins/tree/master/render_math">plugin</a> for Pelican that uses <a href="https://www.mathjax.org/">Mathjax</a> underneath. Lets see if it works.
+Inline math like <span class="math">\(E=mc^2\)</span> and displayed math equations&nbsp;like,
+</p>
+<div class="math">$$E=mc^2$$</div>
+<p>Lets try a Block&nbsp;quote.</p>
+<blockquote>
+<p>Imagination is more important than&nbsp;knowledge</p>
+</blockquote>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+    
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' && location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript'; 
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
         </article>
 
         <!--
         <footer>
-            <p>This entry is posted in <a href="http://spv.me/category/misc.html">misc</a>.</p>
+            <p>This entry is posted in <a href="http://spv.me/category/web.html">Web</a>.</p>
         </footer>
         -->
 
@@ -53,13 +122,15 @@
 
 <footer class="blog-footer">
 
+<!--
     <ul class="nav">
                 <li><a href="http://spv.me/">HOME</a></li>
                 <li><a href="http://spv.me/blog">BLOG</a></li>
     </ul>
+-->
 
     <p class="disclaimer">
-        Siva Prasad Varma &copy; 2015 <br/> Built with <a href="http://getpelican.com/">Pelican</a> and <a href="https://github.com/hdra/Pelican-Cid">Cid</a> Theme
+        &copy; 2015 SPV
     </p>
 </footer>
             </div>
