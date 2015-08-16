@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>SPV</title><link href="http://spv.me/" rel="alternate"></link><link href="http://spv.me/feeds/all.atom.xml" rel="self"></link><id>http://spv.me/</id><updated>2015-08-12T00:00:00+05:30</updated><entry><title>Hello World!</title><link href="http://spv.me/posts/hello-world/" rel="alternate"></link><updated>2015-08-12T00:00:00+05:30</updated><author><name>SPV</name></author><id>tag:spv.me,2015-08-12:posts/hello-world/</id><summary type="html">&lt;!--
+<feed xmlns="http://www.w3.org/2005/Atom"><title>SPV</title><link href="http://spv.me/" rel="alternate"></link><link href="http://spv.me/feeds/all.atom.xml" rel="self"></link><id>http://spv.me/</id><updated>2015-08-15T00:00:00+05:30</updated><entry><title>Hello World!</title><link href="http://spv.me/posts/hello-world/" rel="alternate"></link><updated>2015-08-15T00:00:00+05:30</updated><author><name>SPV</name></author><id>tag:spv.me,2015-08-15:posts/hello-world/</id><summary type="html">&lt;!--
 abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
 --&gt;
 
@@ -12,14 +12,28 @@ control over the&amp;nbsp;design.&lt;/p&gt;
 at zero cost. There is no dearth of Static site generators these days.
 I have tried &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;, &lt;a href="http://jekyllrb.com"&gt;Jekyll&lt;/a&gt;,
 &lt;a href="http://jaspervdj.be/hakyll/"&gt;Hakyll&lt;/a&gt; and feel pelican suits me&amp;nbsp;well.&lt;/p&gt;
-&lt;p&gt;I liked Jekyll a lot, especially the fact that I can directly push markdown to
+&lt;p&gt;Pelican is a Python based static site generator. You can install it from PyPI
+using pip. I spend a lot of time writing Python particularly for Scientific
+computing, so it was a natural choice for me. At the time there were no good
+themes for pelican and I did not have the know-how or the time to create one
+myself. So I tried the most popular of all Static site generators,&amp;nbsp;Jekyll.&lt;/p&gt;
+&lt;p&gt;Jekyll is created by the founder of Github, Tom Preston Werner. Like all projects
+officially backed by Github, it looks cool. It is Open Source, has a beautiful
+website, documentation and loads of good looking themes.
+I liked Jekyll a lot, especially the fact that I can directly push markdown to
 my repo rather than the html generated from markdown. However, I never used Ruby.
 So I did not want to install Ruby, Jekyll and its many dependencies on my
-computer just for&amp;nbsp;blogging.&lt;/p&gt;
+computer just for blogging. As of this writing Jekyll is still not officially
+supported on&amp;nbsp;Windows.&lt;/p&gt;
 &lt;p&gt;In December 2014, when I was around half way through Learn You A Haskell book,
 I wanted a project to apply my newly acquired haskell knowledge. That&amp;#8217;s how I
-stumbled on &lt;a href="http://jaspervdj.be/hakyll/"&gt;Hakyll&lt;/a&gt;. put me in a situation where I was not
-able to reproduce the setup from one computer to another. Also I am not as
-comfortable with Haskell as I am with Python.
-Pelican&amp;#8217;s stability also should help me concentrate on writing the content.
-Eventually I came back to Pelican which I tried&amp;nbsp;first.&lt;/p&gt;</summary></entry></feed>
+stumbled on &lt;a href="http://jaspervdj.be/hakyll/"&gt;Hakyll&lt;/a&gt;. Hakyll is very similar to Jekyll,
+and it worked very well for me on Windows. The trouble started when I tried to
+reuse source files from Windows on Archlinux. First the infamous Cabal Hell and
+as though that was not enough when I got everything working, the config files 
+were doing different things on Windows and&amp;nbsp;Linux.&lt;/p&gt;
+&lt;p&gt;As cool as Haskell is, I am not as comfortable with Haskell as I am with Python.
+Eventually I came back to Pelican which I tried first when I found a theme of my
+liking. Pelican&amp;#8217;s stability also should help me concentrate on writing the content.
+I wanted a simple website that will keep the focus on content and I think
+what I have now is perfect in that&amp;nbsp;respect.&lt;/p&gt;</summary></entry></feed>
