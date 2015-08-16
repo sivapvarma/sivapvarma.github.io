@@ -3,7 +3,8 @@
 abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
 --&gt;
 
-&lt;p&gt;For a long time, I wanted to have a blog to document stuff so that
+&lt;p&gt;Welcome to the first post on my blog.
+For a long time, I wanted to have a blog to document stuff so that
 I could refer back to them later. Back then in 2010, I looked at Blogger,
 Wordpress and Tumblr. I did not like them as I had very limited 
 control over the&amp;nbsp;design.&lt;/p&gt;
@@ -15,7 +16,9 @@ I have tried &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;, &lt;a hre
 my repo rather than the html generated from markdown. However, I never used Ruby.
 So I did not want to install Ruby, Jekyll and its many dependencies on my
 computer just for&amp;nbsp;blogging.&lt;/p&gt;
-&lt;p&gt;Hakyll put me in a situation where I was not
+&lt;p&gt;In December 2014, when I was around half way through Learn You A Haskell book,
+I wanted a project to apply my newly acquired haskell knowledge. That&amp;#8217;s how I
+stumbled on &lt;a href="http://jaspervdj.be/hakyll/"&gt;Hakyll&lt;/a&gt;. put me in a situation where I was not
 able to reproduce the setup from one computer to another. Also I am not as
 comfortable with Haskell as I am with Python.
 Pelican&amp;#8217;s stability also should help me concentrate on writing the content.
