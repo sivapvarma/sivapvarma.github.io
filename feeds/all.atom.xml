@@ -3,37 +3,51 @@
 abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
 --&gt;
 
-&lt;p&gt;Welcome to the first post on my blog.
-For a long time, I wanted to have a blog to document stuff so that
-I could refer back to them later. Back then in 2010, I looked at Blogger,
+&lt;p&gt;Over the years, whenever I sat down to create a website, I would get stumped trying to figure
+out details of hosting. Moreover I always wanted to have a blog to write down stuff so that
+I could refer back later. Back then in 2010, I looked at Blogger,
 Wordpress and Tumblr. I did not like them as I had very limited 
 control over the&amp;nbsp;design.&lt;/p&gt;
-&lt;p&gt;Static Site Generators and Github hosting means I can have all the freedom
-at zero cost. There is no dearth of Static site generators these days.
-I have tried &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;, &lt;a href="http://jekyllrb.com"&gt;Jekyll&lt;/a&gt;,
-&lt;a href="http://jaspervdj.be/hakyll/"&gt;Hakyll&lt;/a&gt; and feel pelican suits me&amp;nbsp;well.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; provide a very reliable hosting option
+for static sites at zero cost.
+As for blogging, there is no dearth of &lt;a href="https://www.staticgen.com/"&gt;Static site generators&lt;/a&gt; these days.
+It feels like a new one comes and goes everyday just like javascript frameworks
+do by the hour. I have tried &lt;a href="http://getpelican.com" title="Pelican"&gt;Pelican&lt;/a&gt;, &lt;a href="http://jekyllrb.com" title="Jekyll Home Page"&gt;Jekyll&lt;/a&gt;,
+and &lt;a href="http://jaspervdj.be/hakyll/" title="Hakyll"&gt;Hakyll&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Pelican is a Python based static site generator. You can install it from PyPI
 using pip. I spend a lot of time writing Python particularly for Scientific
 computing, so it was a natural choice for me. At the time there were no good
 themes for pelican and I did not have the know-how or the time to create one
-myself. So I tried the most popular of all Static site generators,&amp;nbsp;Jekyll.&lt;/p&gt;
-&lt;p&gt;Jekyll is created by the founder of Github, Tom Preston Werner. Like all projects
-officially backed by Github, it looks cool. It is Open Source, has a beautiful
-website, documentation and loads of good looking themes.
-I liked Jekyll a lot, especially the fact that I can directly push markdown to
+myself. Next I tried ,&amp;nbsp;Jekyll.&lt;/p&gt;
+&lt;p&gt;Jekyll is created by &lt;a href="http://tom.preston-werner.com/"&gt;Tom Preston Werner&lt;/a&gt;,
+cofounder of Github. Like all projects
+&lt;a href="https://atom.io/"&gt;officially&lt;/a&gt; backed by Github, it looks cool. It
+has a beautiful
+website, lots of documentation and loads of good looking themes.
+I liked Jekyll a lot, especially the &lt;a href="https://help.github.com/articles/using-jekyll-with-pages/"&gt;fact&lt;/a&gt; that I can directly push markdown to
 my repo rather than the html generated from markdown. However, I never used Ruby.
 So I did not want to install Ruby, Jekyll and its many dependencies on my
 computer just for blogging. As of this writing Jekyll is still not officially
 supported on&amp;nbsp;Windows.&lt;/p&gt;
-&lt;p&gt;In December 2014, when I was around half way through Learn You A Haskell book,
+&lt;p&gt;In December 2014, when I was around half way through &lt;a href="http://learnyouahaskell.com/"&gt;Learn You A Haskell&lt;/a&gt;,
 I wanted a project to apply my newly acquired haskell knowledge. That&amp;#8217;s how I
 stumbled on &lt;a href="http://jaspervdj.be/hakyll/"&gt;Hakyll&lt;/a&gt;. Hakyll is very similar to Jekyll,
 and it worked very well for me on Windows. The trouble started when I tried to
 reuse source files from Windows on Archlinux. First the infamous Cabal Hell and
 as though that was not enough when I got everything working, the config files 
 were doing different things on Windows and&amp;nbsp;Linux.&lt;/p&gt;
-&lt;p&gt;As cool as Haskell is, I am not as comfortable with Haskell as I am with Python.
-Eventually I came back to Pelican which I tried first when I found a theme of my
-liking. Pelican&amp;#8217;s stability also should help me concentrate on writing the content.
+&lt;p&gt;Haskell is a very cool language but currently I am not as comfortable in
+Haskell as I am in Python&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. Eventually I came back to Pelican, when I found a theme of my liking. Pelican&amp;#8217;s stability
+also should help me concentrate on writing the content.
 I wanted a simple website that will keep the focus on content and I think
-what I have now is perfect in that&amp;nbsp;respect.&lt;/p&gt;</summary></entry></feed>
+what I have now is perfect in that&amp;nbsp;respect.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;I intend to rectify this,  a lot of good software is written in Haskell especially
+&lt;a href="http://xmonad.org/"&gt;Xmonad&lt;/a&gt;, &lt;a href="http://pandoc.org/"&gt;Pandoc&lt;/a&gt; and &lt;a href="http://projects.haskell.org/diagrams/"&gt;Diagrams&lt;/a&gt;, but it seems like I always have a big list of
+languages to learn. Currently this  list includes Haskell, Lisp and Lua.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</summary></entry></feed>
