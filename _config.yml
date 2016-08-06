@@ -6,11 +6,13 @@ title:               SPV
 tagline:             "Welcome"
 description:         "Make a difference"
 url:                 http://spv.me
+
+# Pagination
 paginate:            5
 
 # About/contact
 author:
-  name:              Siva Prasad Varma
+  name:              "Siva Prasad Varma"
   url:               https://twitter.com/sivapvarma
   email:             sivapvarma@gmail.com
 
