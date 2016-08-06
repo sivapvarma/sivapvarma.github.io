@@ -6,7 +6,6 @@ title:               SPV
 tagline:             "Welcome"
 description:         "Make a difference"
 url:                 http://spv.me
-baseurl:             ""
 paginate:            5
 
 # About/contact
