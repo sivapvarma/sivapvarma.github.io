@@ -2,15 +2,14 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-# Jekyll 3 removed support for relaive permalinks
-relative_permalinks: false
+relative_permalinks: true
 
 # Setup
 title:               SPV
 tagline:             "Welcome"
 description:         "Make a difference"
-url:                 "http://spv.me"
-baseurl:             "http://spv.me"
+url:                 http://spv.me
+baseurl:             ""
 paginate:            5
 
 # About/contact
