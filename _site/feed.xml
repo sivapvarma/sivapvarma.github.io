@@ -2,13 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SPV</title>
-    <description>Yet Another Jekyll blog
-</description>
-    <link>http://spv.me/</link>
-    <atom:link href="http://spv.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Feb 2016 22:32:24 -0800</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2016 22:32:24 -0800</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <description>Make a difference</description>
+    <link>http://spv.me//</link>
+    <atom:link href="http://spv.me//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 06 Aug 2016 07:43:31 -0700</pubDate>
+    <lastBuildDate>Sat, 06 Aug 2016 07:43:31 -0700</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Hello World!</title>
@@ -17,8 +16,8 @@
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\boxed{ e^{i\pi}+1=0 }&lt;/script&gt;
 </description>
         <pubDate>Mon, 01 Feb 2016 21:40:42 -0800</pubDate>
-        <link>http://spv.me/2016/02/01/hello-world.html</link>
-        <guid isPermaLink="true">http://spv.me/2016/02/01/hello-world.html</guid>
+        <link>http://spv.me//2016/02/01/hello-world/</link>
+        <guid isPermaLink="true">http://spv.me//2016/02/01/hello-world/</guid>
         
         
       </item>

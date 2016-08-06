@@ -1,19 +1,28 @@
-# Welcome to Jekyll!
+# Permalinks
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# Jekyll 3 removed support for relaive permalinks
+relative_permalinks: false
 
-# Site settings
-title: SPV
-# email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-    Yet Another Jekyll blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://spv.me" # the base hostname & protocol for your site
-twitter_username: sivapvarma
-github_username:  sivapvarma
+# Setup
+title:               SPV
+tagline:             "Welcome"
+description:         "Make a difference"
+baseurl:             ""
+url:                 "http://spv.me/"
+paginate:            5
 
-# Build settings
-markdown: kramdown
+# About/contact
+author:
+  name:              Siva Prasad Varma
+  url:               https://twitter.com/sivapvarma
+  email:             sivapvarma@gmail.com
+
+# Custom vars
+version:             8.0.0
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
