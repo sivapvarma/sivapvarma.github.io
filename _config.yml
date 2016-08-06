@@ -1,9 +1,5 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
+# permalink
 permalink:           pretty
-# see: https://help.github.com/articles/page-build-failed-relative-permalinks-configured/
-# relative_permalinks: true
 
 # Setup
 title:               SPV
