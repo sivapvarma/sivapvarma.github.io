@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               SPV
 tagline:             "Welcome"
-description:         "Make a difference"
+# description:         "Make a difference"
 url:                 http://spv.me
 
 # Pagination
