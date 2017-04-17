@@ -12,5 +12,6 @@ I am Siva Prasad Varma. I am a graduate student at [UC San Diego](http://ucsd.ed
 
 Built with [Jekyll](http://jekyllrb.com) using the
 [Lanyon](https://github.com/poole/lanyon) theme.
-All text is set in [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern).
+All text is set in [Roboto](https://fonts.google.com/specimen/Roboto).
+<!-- [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern). -->
 Coded with ~~[Atom](https://atom.io)~~ [Code](http://code.visualstudio.com/).
