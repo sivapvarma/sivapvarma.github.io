@@ -9,5 +9,5 @@ I am Siva Prasad Varma.  You could follow me on
 
 ### Colophon
 
-Built with [Jekyll](http://jekyllrb.com) using the
+Built with [Jekyll](https://jekyllrb.com) using the
 [Lanyon](https://github.com/poole/lanyon) theme.
