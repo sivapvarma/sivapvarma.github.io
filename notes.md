@@ -1,6 +1,14 @@
 ---
-layout: page
+layout: default
 title: Notes
 ---
 
-* Leibniz Rule \[[PDF]({{ site.url }}/assets/leibniz_rule.pdf)\]
+### Notes
+<ul>
+  {% for note in site.notes %}
+    <li>
+      <a href="{{ note.url }}">{{ note.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+

@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h3 class="page-title">{{ page.title }}</h3>
+  <span class="post-date">{{ page.last_modified_at | date: '%d %b %Y %H:%M' }}</span>
+  {{ content }}
+</div>

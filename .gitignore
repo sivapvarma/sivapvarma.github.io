@@ -17,4 +17,12 @@ _site
 
 # Folders to ignore
 node_modules
+
+# Jekyll.gitignore
 _site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# macOS
+.DS_Store

@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               SPV
 tagline:             "Welcome"
-# description:         "Make a difference"
+description:         "My biased coin"
 url:                 http://spv.me
 
 # Pagination
@@ -20,3 +20,8 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-last-modified-at
+
+collections:
+  notes:
+    output: true
