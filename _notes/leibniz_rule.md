@@ -1,7 +1,7 @@
 ---
 layout: note 
 title: Leibniz Rule
-date: 2016-03-09 22:15:45 -0800
+date: 2016-03-09 22:15:45 
 category: notes
 ---
 

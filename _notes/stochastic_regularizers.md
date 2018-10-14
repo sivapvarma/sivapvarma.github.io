@@ -2,7 +2,7 @@
 title: Stochastic Regularizers
 category: notes
 layout: note
-date: 2018-08-05 19:40:42 -0800
+date: 2018-08-05 19:40:42
 ---
 
 #### Drop Out
