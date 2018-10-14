@@ -6,6 +6,7 @@ title:               SPV
 tagline:             "Welcome"
 description:         "My biased coin"
 url:                 http://spv.me
+timezone:            America/Los_Angeles
 
 # Pagination
 paginate:            5
@@ -24,4 +25,6 @@ plugins:
 
 collections:
   notes:
+    output: true
+  teaching:
     output: true
